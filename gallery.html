@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery — Grahmé</title>
+    <meta
+      name="description"
+      content="Photos of our handcrafted graham balls."
+    />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Nunito:wght@400;600;700;800&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header" id="siteHeader">
+      <a class="brand" href="index.html">
+        <img src="favicon.png" alt="Grahmé logo" class="brand-mark" />
+        <span class="brand-name">Grahmé</span>
+      </a>
+      <button
+        class="menu-btn"
+        id="menuBtn"
+        aria-label="Open menu"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="gallery.html" class="active" aria-current="page">Gallery</a>
+        <a href="about.html">Our Story</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page-top">
+      <section class="section" id="gallery">
+        <div class="section-head reveal">
+          <p class="eyebrow">Our treats</p>
+          <h2>Gallery</h2>
+          <p class="lede" style="max-width: 520px; margin-top: 0.6rem">
+            A closer look at the graham balls we roll by hand — classic, cocoa,
+            milk, nests, and gift boxes.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal">
+            <img src="L.jpeg" alt="Graham Balls" loading="lazy" />
+            <figcaption>Graham Balls Collection</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="C.jpeg" alt="Cocoa Graham nest" loading="lazy" />
+            <figcaption>Cocoa Graham nest</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="V.jpeg" alt="Coated Graham" loading="lazy" />
+            <figcaption>Coated Graham</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="M.jpeg" alt="Graham Nest" loading="lazy" />
+            <figcaption>Graham Nest</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="As.jpg" alt="Assorted Gift Box" loading="lazy" />
+            <figcaption>Assorted Gift Box</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="ss.jpg" alt="Premium Box" loading="lazy" />
+            <figcaption>Premium Box</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img src="B.jpeg" alt="Grahmé collection" loading="lazy" />
+            <figcaption>Fresh batch</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p class="footer-script">Grahmé</p>
+      <p>Handcrafted graham balls · Made with love</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
